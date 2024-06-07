@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='analytics.css') }}">
 </head>
 <body>
+    <header>
+        <p><a href="{{ url_for('index') }}">Back to Home</a></p>
+    </header>
     <h1>GitHub Stats for <a href="https://github.com/{{ username }}" target="_blank">{{ username }}</a></h1>
-    
+
     <div class="container">
         <div class="user-details">
             <h2>User Details</h2>
