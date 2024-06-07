@@ -12,10 +12,10 @@ h1 {
 
 .container {
     display: grid;
-    grid-template-columns: 350px 600px 600px;
+    grid-template-columns: 350px 600px 700px;
     grid-template-rows: auto auto;
     gap: 10px;
-    max-width: 1570px;
+    max-width: 1670px;
     margin: auto;
     background-color: #fff;
     padding: 10px;
@@ -71,6 +71,7 @@ h1 {
 .repositories table {
     width: 100%;
     border-collapse: collapse;
+    max-width: 100%;
 }
 
 .repositories th, .repositories td {
